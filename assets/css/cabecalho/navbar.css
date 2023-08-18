@@ -1,0 +1,15 @@
+.navbar {
+	background-color: #121620ec;
+}
+.nav-link {
+	color: #fff;
+	border: 1px solid #c4c4c4;
+	width: 120px;
+}
+
+.nav-link:not(:first-child) {
+	margin-left: 20px;
+}
+a.active {
+	background-color: #c4c4c421;
+}
