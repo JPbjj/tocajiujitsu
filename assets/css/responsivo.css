@@ -1,0 +1,23 @@
+@media (max-width: 320px) {
+    #cabecalho-id nav {
+        display: flex;
+        flex-direction: column;
+    }
+    #cabecalho-id nav a {
+        margin-bottom: 5px;
+    }
+    .grid-sobrenos .primeira_linha,
+    .segunda_linha,
+    .terceira_linha {
+        margin-bottom: 18em;
+    }
+    .grid-sobrenos .texto {
+        margin-top: 2em;
+    }
+    .table {
+        border-collapse: collapse;
+    }
+    .table-responsive-sm {
+        width: 250px;
+    }
+}
