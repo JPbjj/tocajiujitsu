@@ -4,20 +4,37 @@
         flex-direction: column;
     }
     #cabecalho-id nav a {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     .grid-sobrenos .primeira_linha,
     .segunda_linha,
     .terceira_linha {
         margin-bottom: 18em;
+        font-size: 13px;
+    }
+    .grid-sobrenos .img-fluid {
+        width: 200px;
+        height: 200px;
     }
     .grid-sobrenos .texto {
         margin-top: 2em;
+        color: #000;
     }
     .table {
         border-collapse: collapse;
     }
     .table-responsive-sm {
         width: 250px;
+    }
+    .local {
+        width: 250px;
+    }
+    #btnTop {
+        width: 30px;
+        height: 30px;
+        right: 10px;
+    }
+    .arrow {
+        border-width: 0 3px 3px 0;
     }
 }

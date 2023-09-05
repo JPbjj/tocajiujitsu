@@ -1,0 +1,10 @@
+.table {
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+}
+.table th {
+    font-weight: bold;
+}
+.table td {
+    font-weight: 500;
+}

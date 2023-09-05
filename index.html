@@ -45,7 +45,7 @@
             rel="stylesheet"
             href="assets/css/grid-endereco/endereco-grid.css"
         />
-        <link rel="stylesheet" href="assets/css/horario/tabela.css" />
+        <link rel="stylesheet" href="assets/css/grid-horario/tabela.css" />
         <link rel="stylesheet" href="assets/css/botao-top/btnTop.css" />
         <link rel="stylesheet" href="assets/css/botao-top/arrow.css" />
         <link rel="stylesheet" href="variaveis.css" />
@@ -53,7 +53,10 @@
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
         />
-        <link rel="stylesheet" href="assets/css/horario/horario-grid.css" />
+        <link
+            rel="stylesheet"
+            href="assets/css/grid-horario/horario-grid.css"
+        />
         <link rel="stylesheet" href="assets/css/responsivo.css" />
         <script
             defer
@@ -75,7 +78,7 @@
                     >Endereço</a
                 >
                 <a
-                    href="#grid-id"
+                    href="#sobrenos-id"
                     class="nav-item nav-link d-flex justify-content-center p-2"
                     >Sobre</a
                 >
@@ -142,7 +145,7 @@
                 </div>
             </div>
         </section>
-        <section id="grid-id">
+        <section id="sobrenos-id">
             <div class="container grid-sobrenos">
                 <div
                     class="container pt-4 pb-2 d-flex justify-content-center align-items-center"
@@ -182,15 +185,16 @@
                         />
                     </div>
                     <div
-                        class="texto fw-bold col-sm-6 d-flex text-center align-items-center"
+                        class="texto texto-branco fw-bold col-sm-6 d-flex text-center align-items-center"
                     >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras sodales lobortis suscipit. Mauris augue urna,
-                        interdum sit amet tincidunt eget, eleifend at dui. Sed a
-                        lacinia tortor, sit amet condimentum risus. Cras nibh
-                        tellus, sodales vitae nisl ullamcorper, ultrices
-                        imperdiet massa. Integer eu lectus in dolor tempor
-                        semper blandit eu.
+                        A Toca do Jiu-Jitsu fundada pelos Mestres Peixotinho e
+                        Alvaro Ganso é uma renomada escola de Jiu-Jitsu situada
+                        em Aparecida-SP. Hoje comandada pelo Mestre Alvaro
+                        Ganso, a Toca do Jiu-Jitsu já formou e exportou muitos
+                        campeões e alunos para diversas as partes do mundo!
+                        Exemplo disso são as suas filiais que estão espalhadas
+                        por cidades do Vale do Paraíba e também fora do país
+                        como na Australia e na Alemanha.
                     </div>
                 </div>
                 <div class="row terceira_linha pt-2 pb-2">
@@ -280,13 +284,17 @@
             </div>
         </section>
         <section id="endereco-id" class="container">
-            <div class="row endereco-grid pt-5">
-                <div class="col-sm-6 d-flex flex-column align-items-center">
+            <div
+                class="row endereco-grid pt-5 d-flex align-items-center justify-content-center"
+            >
+                <div
+                    class="local col-sm-6 d-flex flex-column align-items-center mb-5"
+                >
                     <span class="material-symbols-outlined texto-branco">
                         location_on
                     </span>
                     <h5 class="mt-3 text-center fw-bold texto-branco">
-                        LOCALIZADOS NO CENTRO DE PIQUETE
+                        Nossa localização
                     </h5>
                     <h5 class="mt-3 text-center fw-bold texto-branco">
                         3° ANDAR GALERIA VANDY
@@ -297,7 +305,7 @@
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d920.8114185638357!2d-45.184779668983325!3d-22.60729930332225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccba357c846679%3A0xb51a1e55798cf220!2sGaleria%20Vandy!5e0!3m2!1spt-BR!2sbr!4v1692621862962!5m2!1spt-BR!2sbr"
                         width="100%"
-                        height="350"
+                        height="550"
                         style="border: 0; padding: 0"
                         allowfullscreen=""
                         loading="lazy"
@@ -313,7 +321,7 @@
                 <h2 class="text-uppercase">horários de aula</h2>
                 <div class="pt-2 table-responsive-sm">
                     <table
-                        class="table table-striped table-dark table-bordered align-middle"
+                        class="table table-striped table-dark table-bordered align-middle text-center"
                     >
                         <thead>
                             <tr>
