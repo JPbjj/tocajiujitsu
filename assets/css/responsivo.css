@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (min-width: 320px) {
     #cabecalho-id nav {
         display: flex;
         flex-direction: row;
@@ -62,7 +62,7 @@
         border-width: 0 3px 3px 0;
     }
 }
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     #cabecalho-id nav {
         display: flex;
         flex-direction: row;
