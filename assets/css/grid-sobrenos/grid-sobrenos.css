@@ -1,3 +1,8 @@
 .grid-sobrenos .row {
     height: 350px;
 }
+.grid-sobrenos .primeira_linha,
+.segunda_linha,
+.terceira_linha {
+    margin-bottom: 5em;
+}

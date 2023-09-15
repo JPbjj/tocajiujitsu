@@ -1,4 +1,4 @@
-@media (min-width: 320px) {
+@media (min-width: 249px) and (max-width: 480px) {
     #cabecalho-id nav {
         display: flex;
         flex-direction: row;
@@ -62,7 +62,7 @@
         border-width: 0 3px 3px 0;
     }
 }
-@media (min-width: 375px) {
+@media (min-width: 481px) and (max-width: 768px) {
     #cabecalho-id nav {
         display: flex;
         flex-direction: row;
@@ -71,73 +71,6 @@
     #cabecalho-id nav a {
         margin-bottom: 10px;
     }
-    .grid-sobrenos .primeira_linha,
-    .segunda_linha,
-    .terceira_linha {
-        margin-bottom: 18em;
-        font-size: 13px;
-    }
-    .grid-sobrenos .img-fluid {
-        width: 265px;
-        height: 265px;
-    }
-    .grid-sobrenos .texto {
-        margin-top: 2em;
-        color: #000;
-    }
-    .table {
-        border-collapse: collapse;
-    }
-    .table thead tr {
-        display: none;
-    }
-    .table tr {
-        display: block;
-    }
-    .table th,
-    .table td {
-        padding: 0.5em;
-    }
-    .table td {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        font-size: 1em;
-    }
-    .table td::before {
-        content: attr(data-title) " \: ";
-        float: left;
-    }
-    .local {
-        width: 250px;
-    }
-    .horario-grid span {
-        margin-top: 1.5em;
-    }
-    #btnTop {
-        width: 30px;
-        height: 30px;
-        right: 10px;
-    }
-    .arrow {
-        border-width: 0 3px 3px 0;
-    }
-}
-@media (min-width: 425px) {
-    #cabecalho-id nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-    #cabecalho-id nav a {
-        margin-bottom: 10px;
-    }
-    #cabecalho-id nav a:last-child {
-        margin-right: 10px;
-    }
-
     .grid-sobrenos .primeira_linha,
     .segunda_linha,
     .terceira_linha {
