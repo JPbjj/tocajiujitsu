@@ -1,389 +1,348 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="reset.css" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="assets/css/cabecalho/navbar.css" />
-        <link rel="stylesheet" href="assets/css/slides/carousel-inner.css" />
-        <link rel="stylesheet" href="assets/css/slides/carousel-control.css" />
-        <link rel="stylesheet" href="assets/css/slides/carousel-item1.css" />
-        <link rel="stylesheet" href="assets/css/slides/carousel-item2.css" />
-        <link rel="stylesheet" href="assets/css/slides/carousel-item3.css" />
-        <link
-            rel="stylesheet"
-            href="assets/css/grid-sobrenos/primeira_linha.css"
-        />
-        <link
-            rel="stylesheet"
-            href="assets/css/grid-sobrenos/segunda_linha.css"
-        />
-        <link
-            rel="stylesheet"
-            href="assets/css/grid-sobrenos/terceira_linha.css"
-        />
-        <link
-            rel="stylesheet"
-            href="assets/css/grid-sobrenos/grid-sobrenos.css"
-        />
-        <link
-            rel="stylesheet"
-            href="assets/css/grid-sobrenos/grid-sobrenos.css"
-        />
-        <link
-            rel="stylesheet"
-            href="assets/css/grid-contato/grid-contato.css"
-        />
-        <link
-            rel="stylesheet"
-            href="assets/css/grid-endereco/endereco-grid.css"
-        />
-        <link rel="stylesheet" href="assets/css/grid-horario/tabela.css" />
-        <link rel="stylesheet" href="assets/css/botao-top/btnTop.css" />
-        <link rel="stylesheet" href="assets/css/botao-top/arrow.css" />
-        <link rel="stylesheet" href="variaveis.css" />
-        <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-        />
-        <link
-            rel="stylesheet"
-            href="assets/css/grid-horario/horario-grid.css"
-        />
-        <link rel="stylesheet" href="assets/css/responsivo.css" />
-        <link rel="icon" href="assets/images/toca_piquete.png" />
-        <script
-            defer
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-            crossorigin="anonymous"
-        ></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="reset.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="assets/css/cabecalho/navbar.css" />
+		<link rel="stylesheet" href="assets/css/slides/carousel-inner.css" />
+		<link rel="stylesheet" href="assets/css/slides/carousel-control.css" />
+		<link rel="stylesheet" href="assets/css/slides/carousel-item1.css" />
+		<link rel="stylesheet" href="assets/css/slides/carousel-item2.css" />
+		<link rel="stylesheet" href="assets/css/slides/carousel-item3.css" />
+		<link rel="stylesheet" href="assets/css/grid-sobrenos/primeira_linha.css" />
+		<link rel="stylesheet" href="assets/css/grid-sobrenos/segunda_linha.css" />
+		<link rel="stylesheet" href="assets/css/grid-sobrenos/terceira_linha.css" />
+		<link rel="stylesheet" href="assets/css/grid-sobrenos/grid-sobrenos.css" />
+		<link rel="stylesheet" href="assets/css/grid-sobrenos/grid-sobrenos.css" />
+		<link rel="stylesheet" href="assets/css/grid-contato/grid-contato.css" />
+		<link rel="stylesheet" href="assets/css/grid-endereco/endereco-grid.css" />
+		<link rel="stylesheet" href="assets/css/grid-horario/tabela.css" />
+		<link rel="stylesheet" href="assets/css/botao-top/btnTop.css" />
+		<link rel="stylesheet" href="assets/css/botao-top/arrow.css" />
+		<link rel="stylesheet" href="variaveis.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+		<link rel="stylesheet" href="assets/css/grid-horario/horario-grid.css" />
+		<link rel="stylesheet" href="assets/css/responsivo.css" />
+		<link rel="icon" href="assets/images/toca_piquete.png" />
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"
+		></script>
 
-        <title>Toca do Jiu-Jitsu</title>
-    </head>
-    <body>
-        <header id="cabecalho-id">
-            <nav
-                class="navbar navbar-expand-md justify-content-center navbar-dark py-3"
-            >
-                <a
-                    href="#endereco-id"
-                    class="nav-item nav-link d-flex justify-content-center p-2"
-                    >Endereço</a
-                >
-                <a
-                    href="#sobrenos-id"
-                    class="nav-item nav-link d-flex justify-content-center p-2"
-                    >Sobre</a
-                >
-                <a
-                    href="#contato-id"
-                    class="nav-item nav-link d-flex justify-content-center p-2"
-                    >Contato</a
-                >
-                <a
-                    href="#horario-id"
-                    class="nav-item nav-link d-flex justify-content-center p-2"
-                    >Horarios</a
-                >
-            </nav>
-        </header>
-        <section id="home-id" class="slides mt-3">
-            <div class="container border border-3 pb-1 pt-1">
-                <div
-                    id="carouselExample"
-                    class="carousel slide"
-                    data-bs-ride="carousel"
-                >
-                    <div class="carousel-inner">
-                        <div
-                            class="carousel-item h-100 active"
-                            data-bs-interval="3000"
-                            id="carousel-item1"
-                        ></div>
-                        <div
-                            class="carousel-item h-100"
-                            data-bs-interval="3000"
-                            id="carousel-item2"
-                        ></div>
-                        <div
-                            class="carousel-item h-100"
-                            data-bs-interval="3000"
-                            id="carousel-item3"
-                        ></div>
-                    </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselExample"
-                        data-bs-slide="prev"
-                    >
-                        <span
-                            class="carousel-control-prev-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselExample"
-                        data-bs-slide="next"
-                    >
-                        <span
-                            class="carousel-control-next-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-        </section>
-        <section id="sobrenos-id">
-            <div class="container grid-sobrenos">
-                <div
-                    class="container pt-4 pb-2 d-flex justify-content-center align-items-center"
-                ></div>
-                <div class="row primeira_linha mt-2 pb-2">
-                    <div
-                        class="col-sm-6 d-flex justify-content-center align-items-center"
-                    >
-                        <img
-                            class="img-fluid"
-                            src="assets/images/logo-carlson.png"
-                            alt="logo-carlsongracie"
-                        />
-                    </div>
-                    <div
-                        class="texto fw-bold col-sm-6 d-flex text-center align-items-center text-sm-start"
-                    >
-                        Carlson Gracie foi um dos representantes mais
-                        importantes de sua família. Carlson se tornou um
-                        excelente treinador, formando exércitos que dominaram o
-                        circuito do Jiu-Jitsu durante anos e que no MMA tiveram
-                        o mesmo sucesso. A Carlson Gracie Team é uma rede de
-                        escolas de Jiu Jitsu 100% focada em aumentar resultados
-                        dos nossos alunos! Fundada na década de 70 pelo Mestre
-                        Carlson Gracie nossa equipe é formada por pessoas que
-                        gostam de somar e superar desafios.
-                    </div>
-                </div>
-                <div class="row segunda_linha mt-2 pb-2">
-                    <div
-                        class="col-sm-6 d-flex align-items-center justify-content-center"
-                    >
-                        <img
-                            class="img-fluid"
-                            src="assets/images/toca-aparecida.png"
-                            alt="logo-toca_aparecida"
-                        />
-                    </div>
-                    <div
-                        class="texto texto-branco fw-bold col-sm-6 d-flex text-center align-items-center"
-                    >
-                        A Toca do Jiu-Jitsu fundada pelos Mestres Peixotinho e
-                        Alvaro Ganso é uma renomada escola de Jiu-Jitsu situada
-                        em Aparecida-SP. Hoje comandada pelo Mestre Alvaro
-                        Ganso, a Toca do Jiu-Jitsu já formou e exportou muitos
-                        campeões e alunos para diversas as partes do mundo!
-                        Exemplo disso são as suas filiais que estão espalhadas
-                        por cidades do Vale do Paraíba e também fora do país
-                        como na Australia e na Alemanha.
-                    </div>
-                </div>
-                <div class="row terceira_linha pt-2 pb-2">
-                    <div
-                        class="col-sm-6 d-flex align-items-center justify-content-center"
-                    >
-                        <img
-                            class="img-fluid"
-                            src="assets/images/toca_piquete.png"
-                            alt="logo-toca_piquete"
-                        />
-                    </div>
-                    <div
-                        class="texto fw-bold col-sm-6 d-flex text-center align-items-center"
-                    >
-                        Filial da Toca de Aparecida, comandado pelo mestre Levin
-                        (Minotouro) a Toca do Jiu-Jitsu de Piquete segue as
-                        mesmas diretrizes da matriz visando formar não só
-                        grandes atletas mas também bons cidadãos através das
-                        grandes lições que o Jiu-Jitsu fornece para todos que
-                        pisam no tatame.
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="contato-id">
-            <div
-                class="grid-contato d-flex pb-3 container flex-column justify-content-center align-items-center"
-            >
-                <h2 class="mb-3">FAÇA PARTE DA EQUIPE !</h2>
-                <h3 class="pt-4 mb-2 texto-branco">ENTRE EM CONTATO VIA</h3>
-                <div
-                    class="mt-3 d-flex justify-content-center align-items-center"
-                >
-                    <div class="whats">
-                        <a
-                            target="blank"
-                            href="https://wa.me/5512991080428? text=Olá gostaria de fazer parte da equipe Toca do Jiujitsu! "
-                        >
-                            <button
-                                type="button"
-                                class="d-flex align-items-center btn btn-success"
-                            >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
-                                    fill="currentColor"
-                                    class="bi bi-whatsapp m-1"
-                                    viewBox="0 0 16 16"
-                                >
-                                    <path
-                                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
-                                    ></path>
-                                </svg>
-                                Whatsapp
-                            </button>
-                        </a>
-                    </div>
-                    <div class="instagram ps-2">
-                        <a
-                            target="blank"
-                            href="https://instagram.com/levin_bjj_suplementos?igshid=MzRIODBiNWFIZA=="
-                        >
-                            <button
-                                type="button"
-                                class="d-flex align-items-center btn btn-primary"
-                            >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
-                                    fill="currentColor"
-                                    class="bi bi-instagram m-1"
-                                    viewBox="0 0 16 16"
-                                >
-                                    <path
-                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-                                    ></path>
-                                </svg>
-                                Instagram
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="endereco-id" class="container">
-            <div
-                class="row endereco-grid pt-5 d-flex align-items-center justify-content-center"
-            >
-                <div
-                    class="local col-sm-6 d-flex flex-column align-items-center mb-5"
-                >
-                    <span class="material-symbols-outlined texto-branco">
-                        location_on
-                    </span>
-                    <h5 class="mt-3 text-center fw-bold texto-branco">
-                        Nossa localização
-                    </h5>
-                    <h5 class="mt-3 text-center fw-bold texto-branco">
-                        3° ANDAR GALERIA VANDY
-                    </h5>
-                </div>
+		<title>Toca do Jiu-Jitsu</title>
+	</head>
+	<body>
+		<header id="cabecalho-id">
+			<nav
+				class="navbar navbar-expand-md justify-content-center navbar-dark py-3"
+			>
+				<a
+					href="#endereco-id"
+					class="nav-item nav-link d-flex justify-content-center p-2"
+					>Endereço</a
+				>
+				<a
+					href="#sobrenos-id"
+					class="nav-item nav-link d-flex justify-content-center p-2"
+					>Sobre</a
+				>
+				<a
+					href="#contato-id"
+					class="nav-item nav-link d-flex justify-content-center p-2"
+					>Contato</a
+				>
+				<a
+					href="#horario-id"
+					class="nav-item nav-link d-flex justify-content-center p-2"
+					>Horarios</a
+				>
+			</nav>
+		</header>
+		<section id="home-id" class="slides mt-3">
+			<div class="container border border-3 pb-1 pt-1">
+				<div
+					id="carouselExample"
+					class="carousel slide"
+					data-bs-ride="carousel"
+				>
+					<div class="carousel-inner">
+						<div
+							class="carousel-item h-100 active"
+							data-bs-interval="3000"
+							id="carousel-item1"
+						></div>
+						<div
+							class="carousel-item h-100"
+							data-bs-interval="3000"
+							id="carousel-item2"
+						></div>
+						<div
+							class="carousel-item h-100"
+							data-bs-interval="3000"
+							id="carousel-item3"
+						></div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExample"
+						data-bs-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExample"
+						data-bs-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</section>
+		<section id="sobrenos-id">
+			<div class="container grid-sobrenos">
+				<div
+					class="container pt-4 pb-2 d-flex justify-content-center align-items-center"
+				></div>
+				<div class="row primeira_linha mt-2 pb-2">
+					<div
+						class="col-sm-6 d-flex justify-content-center align-items-center"
+					>
+						<img
+							class="img-fluid"
+							src="assets/images/logo-carlson.png"
+							alt="logo-carlsongracie"
+						/>
+					</div>
+					<div
+						class="texto fw-bold col-sm-6 d-flex text-center align-items-center text-sm-start"
+					>
+						Carlson Gracie foi um dos representantes mais importantes de sua
+						família. Carlson se tornou um excelente treinador, formando
+						exércitos que dominaram o circuito do Jiu-Jitsu durante anos e que
+						no MMA tiveram o mesmo sucesso. A Carlson Gracie Team é uma rede de
+						escolas de Jiu Jitsu 100% focada em aumentar resultados dos nossos
+						alunos! Fundada na década de 70 pelo Mestre Carlson Gracie nossa
+						equipe é formada por pessoas que gostam de somar e superar desafios.
+					</div>
+				</div>
+				<div class="row segunda_linha mt-2 pb-2">
+					<div
+						class="col-sm-6 d-flex align-items-center justify-content-center"
+					>
+						<img
+							class="img-fluid"
+							src="assets/images/toca-aparecida.png"
+							alt="logo-toca_aparecida"
+						/>
+					</div>
+					<div
+						class="texto texto-branco fw-bold col-sm-6 d-flex text-center align-items-center"
+					>
+						A Toca do Jiu-Jitsu fundada pelos Professores Aldo e Álvaro Ganso na
+						supervisão do Mestre Otávio (Peixotinho) é uma renomada escola de
+						Jiu-Jitsu situada em Aparecida-SP. Hoje comandada pelo Professor
+						Álvaro Ganso, a Toca do Jiu-Jitsu já formou e exportou muitos
+						campeões e alunos para diversas as partes do mundo! Exemplo disso
+						são as suas filiais que estão espalhadas por cidades do Vale do
+						Paraíba e também fora do país como na Austrália, Estados Unidos e na
+						Alemanha.
+					</div>
+				</div>
+				<div class="row terceira_linha pt-2 pb-2">
+					<div
+						class="col-sm-6 d-flex align-items-center justify-content-center"
+					>
+						<img
+							class="img-fluid"
+							src="assets/images/toca_piquete.png"
+							alt="logo-toca_piquete"
+						/>
+					</div>
+					<div
+						class="texto fw-bold col-sm-6 d-flex text-center align-items-center"
+					>
+						Filial da Toca de Aparecida, comandado pelo Professor Levin
+						(Minotouro) a Toca do Jiu-Jitsu de Piquete segue as mesmas
+						diretrizes da matriz visando formar não só grandes atletas mas
+						também bons cidadãos através das grandes lições que o Jiu-Jitsu
+						fornece para todos que pisam no tatame.
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contato-id">
+			<div
+				class="grid-contato d-flex pb-3 container flex-column justify-content-center align-items-center"
+			>
+				<h2 class="mb-3">FAÇA PARTE DA EQUIPE !</h2>
+				<h3 class="pt-4 mb-2 texto-branco">ENTRE EM CONTATO VIA</h3>
+				<div class="mt-3 d-flex justify-content-center align-items-center">
+					<div class="whats">
+						<a
+							target="blank"
+							href="https://wa.me/5512991080428? text=Olá gostaria de fazer parte da equipe Toca do Jiujitsu! "
+						>
+							<button
+								type="button"
+								class="d-flex align-items-center btn btn-success"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-whatsapp m-1"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+									></path>
+								</svg>
+								Whatsapp
+							</button>
+						</a>
+					</div>
+					<div class="instagram ps-2">
+						<a
+							target="blank"
+							href="https://instagram.com/levin_bjj_suplementos?igshid=MzRIODBiNWFIZA=="
+						>
+							<button
+								type="button"
+								class="d-flex align-items-center btn btn-primary"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-instagram m-1"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+									></path>
+								</svg>
+								Instagram
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="endereco-id" class="container">
+			<div
+				class="row endereco-grid pt-5 d-flex align-items-center justify-content-center"
+			>
+				<div class="local col-sm-6 d-flex flex-column align-items-center mb-5">
+					<span class="material-symbols-outlined texto-branco">
+						location_on
+					</span>
+					<h5 class="mt-3 text-center fw-bold texto-branco">
+						Nossa localização
+					</h5>
+					<h5 class="mt-3 text-center fw-bold texto-branco">
+						3° ANDAR GALERIA VANDY
+					</h5>
+				</div>
 
-                <div class="col-sm-6">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d920.8114185638357!2d-45.184779668983325!3d-22.60729930332225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccba357c846679%3A0xb51a1e55798cf220!2sGaleria%20Vandy!5e0!3m2!1spt-BR!2sbr!4v1692621862962!5m2!1spt-BR!2sbr"
-                        width="100%"
-                        height="550"
-                        style="border: 0; padding: 0"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                    ></iframe>
-                </div>
-            </div>
-        </section>
-        <section id="horario-id">
-            <div
-                class="horario-grid pt-5 mt-5 mb-2 container flex-column d-flex justify-content-center align-items-center"
-            >
-                <h2 class="text-uppercase">horários de aulas</h2>
-                <div class="pt-2 table-responsive-sm">
-                    <table
-                        class="table table-striped table-dark table-bordered align-middle text-center"
-                    >
-                        <thead>
-                            <tr>
-                                <th scope="col">SEGUNDA</th>
-                                <th scope="col">QUARTA</th>
-                                <th scope="col">SEXTA</th>
-                                <th scope="col">SÁBADO KIDS !</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr scope="row">
-                                <td data-title="SEGUNDA">19:30 - 21:00</td>
-                                <td data-title="QUARTA">19:30 - 21:00</td>
-                                <td data-title="SEXTA">19:30 - 21:00</td>
-                                <td data-title="SÁBADO KIDS !">
-                                    09:30 - 11:00
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <span class="texto-branco fw-bold"
-                    >*Aulas aos sábados são para as crianças
-                </span>
-            </div>
-        </section>
-        <div
-            class="d-flex flex-row align-items-center justify-content-center"
-            id="btnTop"
-        >
-            <i class="d-inline-block arrow up"></i>
-        </div>
-        <footer id="rodape">
-            <nav
-                class="navbar navbar-expand-xl justify-content-center navbar-dark py-3"
-            >
-                <div class="expand navbar-expand">
-                    <div class="navbar-nav">
-                        <span class="texto-branco pe-1"
-                            >Feito por João Paulo</span
-                        >
-                        <a target="blank" href="https://github.com/JPbjj">
-                            <button
-                                class="d-flex align-items-center btn btn-outline-danger btn-sm"
-                            >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 45 16"
-                                    width="45"
-                                    height="16"
-                                >
-                                    <path
-                                        d="M8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17Zm35.85 2.33c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88ZM27.68 2.43c.09 0 .17.08.17.17v11.11c0 .09-.08.17-.17.17h-2.13c-.09 0-.17-.08-.17-.17l.02-4.75h-3.31v4.75c0 .09-.08.17-.17.17h-2.13c-.08 0-.17-.08-.17-.17V2.6c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v4.09h3.31V2.6c0-.09.08-.17.17-.17Zm8.26 3.64c.11 0 .19.08.19.17l-.02 7.47c0 .09-.06.17-.17.17H34.6c-.07 0-.14-.04-.16-.09-.03-.06-.08-.45-.08-.45s-1.13.77-2.52.77c-1.69 0-2.92-.55-2.92-2.75V6.25c0-.09.08-.17.17-.17h2.14c.09 0 .17.08.17.17V11c0 .75.22 1.09.97 1.09s1.3-.39 1.3-.39V6.26c0-.11.06-.19.17-.19Zm-17.406 5.971h.005a.177.177 0 0 1 .141.179v1.5c0 .07-.03.14-.09.16-.1.05-.74.22-1.27.22-1.16 0-2.86-.25-2.86-2.69V8.13h-1.11c-.09 0-.17-.08-.17-.19V6.58c0-.08.05-.15.13-.17.07-.01 1.16-.28 1.16-.28V3.96c0-.08.05-.13.14-.13h2.16c.09 0 .14.05.14.13v2.11h1.59c.08 0 .16.08.16.17v1.7c0 .11-.07.19-.16.19h-1.59v3.131c0 .47.27.83 1.05.83.247 0 .481-.049.574-.05ZM12.24 6.06c.09 0 .17.08.17.17v7.37c0 .18-.05.27-.25.27h-1.92c-.17 0-.3-.07-.3-.27V6.26c0-.11.08-.2.17-.2Zm29.99 3.78c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25ZM11.19 2.68c.75 0 1.36.61 1.36 1.38 0 .77-.61 1.38-1.36 1.38-.77 0-1.38-.61-1.38-1.38 0-.77.61-1.38 1.38-1.38Zm7.34 9.35v.001l.01.01h-.001l-.005-.001v.001c-.009-.001-.015-.011-.024-.011Z"
-                                    ></path>
-                                </svg>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </nav>
-        </footer>
-        <script type="text/javascript" src="assets/js/jquery.js"></script>
-        <script type="text/javascript" src="assets/js/script.js"></script>
-    </body>
+				<div class="col-sm-6">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d920.8114185638357!2d-45.184779668983325!3d-22.60729930332225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccba357c846679%3A0xb51a1e55798cf220!2sGaleria%20Vandy!5e0!3m2!1spt-BR!2sbr!4v1692621862962!5m2!1spt-BR!2sbr"
+						width="100%"
+						height="550"
+						style="border: 0; padding: 0"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
+				</div>
+			</div>
+		</section>
+		<section id="horario-id">
+			<div
+				class="horario-grid pt-5 mt-5 mb-2 container flex-column d-flex justify-content-center align-items-center"
+			>
+				<h2 class="text-uppercase">horários de aulas</h2>
+				<div class="pt-2 table-responsive-sm">
+					<table
+						class="table table-striped table-dark table-bordered align-middle text-center"
+					>
+						<thead>
+							<tr>
+								<th scope="col">SEGUNDA</th>
+								<th scope="col">QUARTA</th>
+								<th scope="col">SEXTA</th>
+								<th scope="col">SÁBADO KIDS !</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr scope="row">
+								<td data-title="SEGUNDA">19:30 - 21:00</td>
+								<td data-title="QUARTA">19:30 - 21:00</td>
+								<td data-title="SEXTA">19:30 - 21:00</td>
+								<td data-title="SÁBADO KIDS !">09:30 - 11:00</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<span class="texto-branco fw-bold"
+					>*Aulas aos sábados são para as crianças
+				</span>
+			</div>
+		</section>
+		<div
+			class="d-flex flex-row align-items-center justify-content-center"
+			id="btnTop"
+		>
+			<i class="d-inline-block arrow up"></i>
+		</div>
+		<footer id="rodape">
+			<nav
+				class="navbar navbar-expand-xl justify-content-center navbar-dark py-3"
+			>
+				<div class="expand navbar-expand">
+					<div class="navbar-nav">
+						<span class="texto-branco pe-1">Feito por João Paulo</span>
+						<a target="blank" href="https://github.com/JPbjj">
+							<button
+								class="d-flex align-items-center btn btn-outline-danger btn-sm"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 45 16"
+									width="45"
+									height="16"
+								>
+									<path
+										d="M8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17Zm35.85 2.33c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88ZM27.68 2.43c.09 0 .17.08.17.17v11.11c0 .09-.08.17-.17.17h-2.13c-.09 0-.17-.08-.17-.17l.02-4.75h-3.31v4.75c0 .09-.08.17-.17.17h-2.13c-.08 0-.17-.08-.17-.17V2.6c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v4.09h3.31V2.6c0-.09.08-.17.17-.17Zm8.26 3.64c.11 0 .19.08.19.17l-.02 7.47c0 .09-.06.17-.17.17H34.6c-.07 0-.14-.04-.16-.09-.03-.06-.08-.45-.08-.45s-1.13.77-2.52.77c-1.69 0-2.92-.55-2.92-2.75V6.25c0-.09.08-.17.17-.17h2.14c.09 0 .17.08.17.17V11c0 .75.22 1.09.97 1.09s1.3-.39 1.3-.39V6.26c0-.11.06-.19.17-.19Zm-17.406 5.971h.005a.177.177 0 0 1 .141.179v1.5c0 .07-.03.14-.09.16-.1.05-.74.22-1.27.22-1.16 0-2.86-.25-2.86-2.69V8.13h-1.11c-.09 0-.17-.08-.17-.19V6.58c0-.08.05-.15.13-.17.07-.01 1.16-.28 1.16-.28V3.96c0-.08.05-.13.14-.13h2.16c.09 0 .14.05.14.13v2.11h1.59c.08 0 .16.08.16.17v1.7c0 .11-.07.19-.16.19h-1.59v3.131c0 .47.27.83 1.05.83.247 0 .481-.049.574-.05ZM12.24 6.06c.09 0 .17.08.17.17v7.37c0 .18-.05.27-.25.27h-1.92c-.17 0-.3-.07-.3-.27V6.26c0-.11.08-.2.17-.2Zm29.99 3.78c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25ZM11.19 2.68c.75 0 1.36.61 1.36 1.38 0 .77-.61 1.38-1.36 1.38-.77 0-1.38-.61-1.38-1.38 0-.77.61-1.38 1.38-1.38Zm7.34 9.35v.001l.01.01h-.001l-.005-.001v.001c-.009-.001-.015-.011-.024-.011Z"
+									></path>
+								</svg>
+							</button>
+						</a>
+					</div>
+				</div>
+			</nav>
+		</footer>
+		<script type="text/javascript" src="assets/js/jquery.js"></script>
+		<script type="text/javascript" src="assets/js/script.js"></script>
+	</body>
 </html>
